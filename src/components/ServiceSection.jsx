@@ -33,26 +33,22 @@ export const ServiceSection = () => {
           <Card
             img={clock}
             title="Efficient"
-            desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
-              aut?"
+            desc="Our team ensures a swift and smooth process from booking to delivery, respecting your time while providing top-notch service."
           />
           <Card
             img={teamwork}
             title="Teamwork"
-            desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
-              aut?"
+            desc="We believe in collaboration, working closely with you to capture your vision perfectly and create stunning images."
           />
           <Card
             img={diaphragm}
-            title="Diaphragm"
-            desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
-              aut?"
+            title="Professional Gear"
+            desc="Using state-of-the-art equipment, we ensure each shot is captured with precision, clarity, and the highest quality."
           />
           <Card
             img={money}
-            title="Money"
-            desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
-              aut?"
+            title="Affordable"
+            desc="We offer competitive pricing packages, ensuring you receive the best value for high-quality photography services."
           />
         </ServiceCard>
       </ServiceDescription>

@@ -17,46 +17,64 @@ export const FaqSection = () => {
       className="faq"
     >
       <div className="faq__title">
-        <h2>
-          Any questions? <span>FAQ</span>
-        </h2>
+        <h2>Any questions?</h2>
       </div>
       <AnimateSharedLayout>
-        <Toggle title="How DO I Start?">
+        <Toggle title="How Do I Start?">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos,
-              quibusdam.
+              To get started, simply contact us through our website or give us a
+              call. We’ll discuss your vision and schedule a consultation to
+              understand your needs.
+            </p>
+            <p>
+              Our team will guide you through the process, from planning your
+              shoot to the final delivery of your photos. We ensure a seamless
+              and enjoyable experience from start to finish.
             </p>
           </div>
         </Toggle>
 
         <Toggle title="Daily Schedule">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos,
-              quibusdam.
+              Our daily schedule is quite flexible to accommodate your needs. We
+              typically start our shoots early in the morning to take advantage
+              of the natural light.
+            </p>
+            <p>
+              Each session is tailored to the client, ensuring we capture the
+              best moments. We also offer evening sessions for those looking for
+              a different lighting ambiance.
             </p>
           </div>
         </Toggle>
 
         <Toggle title="Different Payment">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos,
-              quibusdam.
+              We offer various payment options to make it convenient for you.
+              You can pay via credit card, bank transfer, or even in
+              installments for larger packages.
+            </p>
+            <p>
+              We require a deposit to secure your booking, with the balance due
+              upon delivery of the final photographs. Detailed payment plans can
+              be discussed during the consultation.
             </p>
           </div>
         </Toggle>
         <Toggle title="What Product Do you offer">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos,
-              quibusdam.
+              We offer a range of products including high-resolution digital
+              images, professionally edited photo albums, framed prints, and
+              custom photo books.
+            </p>
+            <p>
+              All our products are crafted to the highest standards, ensuring
+              your memories are preserved beautifully. You can view samples of
+              our products during your consultation.
             </p>
           </div>
         </Toggle>
